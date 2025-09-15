@@ -44,7 +44,7 @@ The ntfy integration can be used to send push notifications from automations and
 
 3. **Adding a topic**
 
-    To set up topics for notifications, select the three dots {% icon "mdi:dots-vertical" %} menu next to the entry of the previously configured ntfy service, then click **{% icon "mdi:plus" %} Add topic**.
+    To set up topics for notifications, select **{% icon "mdi:plus" %} Add topic**, then, if prompted, select the ntfy service you previously configured.
 
     You can now choose one of the following options:
 
@@ -143,6 +143,10 @@ The **ntfy** integration adds a device representing the service, along with vari
 ### ⭐ Account
 
 - **Subscription tier**: The subscription plan currently assigned to the ntfy account.
+
+## Data updates
+
+The integration retrieves data from **ntfy.sh** (or your own ntfy instance) every 15 minutes to update the usage statistics sensors.
 
 ## Known limitations
 
